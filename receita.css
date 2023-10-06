@@ -13,6 +13,19 @@ h2{
     padding-right: 5px;
     color: #0c0b0b;
 }
+figure{
+    background-color:white;
+    width:700px;
+    text-align:center;
+    padding: 13px;
+    font-family:'Comic Sans MS',cursive;
+    border:1px solid black;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+}
 #tb-nutrientes{
     width: 40%;
     margin-right: auto;
@@ -27,8 +40,6 @@ h2{
 #tb-nutrientes tr:nth-child(even){
     background-color: #F8EAB3;
 }
-
-
 nav ul li{
     display:inline;
     margin-right:50px;
